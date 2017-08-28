@@ -3,77 +3,43 @@ body{
     padding:0;
     font-family: Open Sans;
     
-}
-
-.top-cont{
-
-    background-image:url("./img/wot-masthead-dark.jpg");
-    background-size: cover;
-    height: 45em;
-    width:100%;
-    color: white;
     
-    /* background-repeat : no-repeat;
-    height:100vh;
-    width: 100%;
-     display: flex; */
 }
-.topBar{
-    display: flex;
-
-    justify-content:space-between;
+.backG{
+    background-image:url(./img/wot-masthead-dark.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
     
-    height:68px;
-    width: 100%;
-    padding: 0 10%;
 }
-.navLink{
+.navbar{
+
+}
+.navbar img{
+    height: 31px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30%;
     
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    width: 36em;
-    height: 12px;
-    margin: auto;
-
-}
-}
-.stuff:visited{
-    text-decoration: none;
-}
-
-
-.stuff{
-    text-decoration: none;
-    color: white;
-    padding: 0 10px;
-}
-.logo{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 15vw;
-
-}
-.wide{
-    height: 32px;
-}
-.work{
-    font-family: Oswald;
-    width:100%;
-    height: 55vh;
-        
     
-
-    
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0 12px;
 }
 .workshop{
-  padding: 0 25%;
-  font-size: 155px;
-
+    font-family: Oswald;
+    color: white;
 }
-.yourD{
-    font-size: 20px;
-    margin-top: 30px;
-    height: 30px;
-    width: 112px;
+h1{
+     
+}
+p{
+    text-align: center;
+}
+.work-text{
+    font-size: 155px;
+}
